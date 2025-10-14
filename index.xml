@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="Polly.Lucia" language="es-ES">
+        ¡Hola! Soy Sofía, tu asistente virtual de Atlas IA. 
+        Gracias por tu interés en nuestro motor de ingresos con inteligencia artificial.
+        
+        Estoy aquí para ayudarte a duplicar tus reservas en 60 segundos, 
+        convirtiendo tus clics de anuncios en ganancias más rápido.
+        
+        Quiero hacerte algunas preguntas rápidas para entender mejor tus necesidades.
+    </Say>
+    <Say voice="Polly.Lucia" language="es-ES">
+        Por favor, presiona 1 si estás buscando aumentar tus leads pagados. 
+        Presiona 2 si solo quieres más información.
+    </Say>
+    <Gather numDigits="1" timeout="5">
+    </Gather>
+    <Say voice="Polly.Lucia" language="es-ES">
+        No recibí ninguna respuesta. Te contactaremos por correo electrónico. 
+        ¡Gracias!
+    </Say>
+    <Hangup/>
+</Response>
