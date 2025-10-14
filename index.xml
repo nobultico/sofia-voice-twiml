@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Gather input="speech dtmf" numDigits="1" timeout="6">
-    <Say language="es-MX" voice="Polly.Lupe-Neural">
+    <Say voice="Polly.Lupe">
       Hola, soy Sofía, tu asistente virtual de Atlas IA. Gracias por tu interés en nuestro motor de ingresos con inteligencia artificial.
       Para continuar: presiona 1 si quieres aumentar tus leads pagados. Presiona 2 si solo quieres más información.
     </Say>
   </Gather>
-  <Say language="es-MX" voice="Polly.Lupe-Neural">
+  <Say voice="Polly.Lupe">
     No recibí ninguna respuesta. Te contactaremos por correo electrónico. ¡Gracias!
   </Say>
   <Hangup/>
