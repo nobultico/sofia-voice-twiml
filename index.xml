@@ -2,7 +2,7 @@
 <Response>
   <Gather input="speech dtmf" numDigits="1" timeout="6">
     <Say voice="Polly.Lupe">
-      Hola, soy Sofía, tu asistente virtual de Atlas IA. Gracias por tu interés en nuestro motor de ingresos con inteligencia artificial.
+      Hola, soy Sofía, tu asistente virtual de Botmaind IA. Gracias por tu interés en nuestro motor de ingresos con inteligencia artificial.
       Para continuar: presiona 1 si quieres aumentar tus leads pagados. Presiona 2 si solo quieres más información.
     </Say>
   </Gather>
